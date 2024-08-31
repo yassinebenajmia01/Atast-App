@@ -16,10 +16,11 @@ const recipes = [
     },
     {
       id: 3,
-      title: "Strawberry Oatmeal Pancake with Honey Syrup",
+      title: "Strawberry  Pancake with Honey Syrup",
       category: "🍴Breakfast",
       time: "⏱︎30 Minutes",
       image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTxqiQDPEvjDFb0_14eeFLmaXEeP8X1Ux3kgcsui0LxW2-IY1OI",
+      
     },
     {
       id: 4,

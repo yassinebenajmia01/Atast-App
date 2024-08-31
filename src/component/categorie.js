@@ -11,16 +11,16 @@ function Categorie() {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-48 ">
-      <h1 className="text-5xl font-bold mb-5 mr-[80%]">Categories</h1>
-      <button className="absolute top-[160%] ml-[80%] px-4 py-4 bg-blue-100 text-black rounded-xl text-xl font-bold">
+    <div className="flex flex-col items-center mt-60 ">
+      <h1 className="text-5xl font-bold mb-5 mr-[80%] absolute top-[150%]">Categories</h1>
+      <button className="absolute top-[150%] ml-[80%] px-4 py-4 bg-blue-100 text-black rounded-xl text-xl font-bold">
         View All Categories
       </button>
       <div className="flex justify-center space-x-32 mt-7 ">
         {categories.map((category) => (
           <div
             key={category.name}
-            className="flex flex-col items-center bg-gray-50 rounded-lg shadow-md p-4 "
+            className="flex flex-col items-center  p-4 "
           >
             <img
               src={category.imgSrc}
