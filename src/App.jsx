@@ -14,6 +14,8 @@ import FriedRice from './component2/friedRice'; // Ensure this path is correct
 import Ingredients from './component2/ingredients';
 import Directions from './component2/directions';
 import LikeRecipeList from './component2/likeRecipeList';
+import BlogAndArticle from './blog/blogAndArticle';
+import TastyRecipe from './blog/tastyRecipe';
 
 function Home() {
   return (
@@ -46,6 +48,18 @@ function Recipes() {
     </>
   );
 }
+function Blog() {
+  return (
+    <>
+      <Navbar />
+      <BlogAndArticle/>
+      <TastyRecipe/>
+      <Inbox/>
+
+      <Footer />
+    </>
+  );
+}
 
 function App() {
   return (
@@ -54,6 +68,7 @@ function App() {
         <Route path="/" element={<Navigate to="/home" />} /> 
         <Route path="/home" element={<Home />} />
         <Route path="/recipes" element={<Recipes />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
   );

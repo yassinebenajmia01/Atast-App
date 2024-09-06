@@ -1,4 +1,4 @@
-const DeliciousRecipess = [
+const LikeRecipes = [
     {
         id: 1,
         title: "Mixed Tropical Fruit Salad with Superfood Boosts",
@@ -28,3 +28,4 @@ const DeliciousRecipess = [
         image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWiwLzTZnluhaFysCLWhrtTnXGWnqWmoisy3peIHUt4eQRJnd1", 
     },
 ]
+export default LikeRecipes;

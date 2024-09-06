@@ -18,7 +18,7 @@ function Navbar() {
       <div className="flex space-x-12 text-lg font-bold mr-[10%]">
         <button className="hover:text-orange-500" aria-label="Home" onClick={() => { navigate("/home") }}>Home</button>
         <button className="hover:text-orange-500" aria-label="Recipes" onClick={() => { navigate("/recipes") }}>Recipes</button>
-        <button className="hover:text-orange-500" aria-label="Blog">Blog</button>
+        <button className="hover:text-orange-500" aria-label="Blog" onClick={() => { navigate("/blog") }}>Blog</button>
         <button className="hover:text-orange-500" aria-label="Contact">Contact</button>
         <button className="hover:text-orange-500" aria-label="About Us">About Us</button>
       </div>
