@@ -19,8 +19,8 @@ function Navbar() {
         <button className="hover:text-orange-500" aria-label="Home" onClick={() => { navigate("/home") }}>Home</button>
         <button className="hover:text-orange-500" aria-label="Recipes" onClick={() => { navigate("/recipes") }}>Recipes</button>
         <button className="hover:text-orange-500" aria-label="Blog" onClick={() => { navigate("/blog") }}>Blog</button>
-        <button className="hover:text-orange-500" aria-label="Contact">Contact</button>
-        <button className="hover:text-orange-500" aria-label="About Us">About Us</button>
+        <button className="hover:text-orange-500" aria-label="Contact" onClick={() => { navigate("/contact") }}>Contact</button>
+        <button className="hover:text-orange-500" aria-label="About Us" onClick={() => { navigate("/aboutus") }}>About Us</button>
       </div>
       
       {/* Social Media Icons */}
