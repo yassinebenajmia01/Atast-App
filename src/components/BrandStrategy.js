@@ -3,7 +3,7 @@ import React from "react";
 const BrandStrategy = () => {
   return (
     <div className="grid grid-cols-2 gap-8 bg-gray-50 ">
-      {/* Left Section: Image ---*/}
+      {/* Left Section: Image --*/}
       <div className="relative">
         <img
           src="https://cdn.prod.website-files.com/6704f0a83f4efadc40b0bde6/670651e251647021f7e8db79_service-01-p-800.webp" // Replace with the actual image URL
