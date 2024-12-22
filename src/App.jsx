@@ -37,7 +37,7 @@ function App() {
         ></div>
       </button>
 
-      {/* Page Content */}
+      {/* Page Content **/}
       <Navbar />
       <Project />
       <Model />
