@@ -2,7 +2,7 @@ import React from "react";
 
 const Model = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 h-screen mt-20">
+    <div className="grid grid-cols-2 gap-4 h-screen mt-20 ">
       {/* Left Section */}
       <div className="relative">
         <img
@@ -99,7 +99,7 @@ const Model = () => {
           <span className="text-gray-500 ml-8 text-4xl">(2023)</span> {/* Increased margin to move (2024) further right */}
         </div>
         <div className="flex items-center mb-16">
-          <span className="text-6xl font-bold ml-24">Godline</span> {/* Added margin-right to move Kanba left */}
+          <span className="text-6xl font-bold ml-24">Goldine</span> {/* Added margin-right to move Kanba left */}
           <span className="text-gray-500 absolute right-[5%] text-4xl">(2023)</span>
         </div>
       </div>

@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const BrandStrategy = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 bg-gray-50">
+    <div className="grid grid-cols-2 gap-4 bg-gray-50 ">
       {/* Left Section: Image */}
       <div className="relative h-full">
         <img
