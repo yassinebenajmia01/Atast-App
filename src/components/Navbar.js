@@ -106,7 +106,7 @@ const Navbar = () => {
           </div>
         </motion.div>
 
-        {/* Our Partner Section */}
+        {/* Our Partner Section **/}
         <div className="mt-16 w-full">
           <motion.h2
             className={`text-2xl font-semibold mb-16 ml-16 ${
