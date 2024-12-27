@@ -1,29 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "./ThemeContext";
 
 const Project = () => {
+  const { isDarkMode } = useContext(ThemeContext);
+
   return (
-    <div className="bg-white dark:bg-black flex flex-col items-start justify-center px-16">
-      {/* Selected Work and 01 in the same line, 01 on the right */}
+    <div
+      className={`flex flex-col items-start justify-center px-16 ${
+        isDarkMode ? "bg-black text-white" : "bg-white text-black"
+      }`}
+    >
       <div className="flex items-center justify-between w-full">
-        <p className="text-black dark:text-white italic text-2xl mt-36">(Selected Work)</p>
-        <p className="text-black dark:text-white italic text-2xl mt-36">(01)</p>
+        <p className="italic text-2xl mt-36">(Selected Work)</p>
+        <p className="italic text-2xl mt-36">(01)</p>
       </div>
-
-      {/* Title */}
-      <h1 className="text-black dark:text-white text-[20rem] font-extrabold leading-none mt-64">
-        PROJECTS
-      </h1>
-
-      {/* Description */}
-      <p className="text-black dark:text-white text-8xl font-bold mt-24">
-        Explore our recent projects
-      </p>
-      <p className="text-black dark:text-white text-8xl font-bold">
-        showcasing creativity, innovation
-      </p>
-      <p className="text-black dark:text-white text-8xl font-bold">
-        and impactful design solutions.
-      </p>
+      <h1 className="text-[20rem] font-extrabold leading-none mt-64">PROJECTS</h1>
+      <p className="text-8xl font-bold mt-24">Explore our recent projects</p>
+      <p className="text-8xl font-bold">showcasing creativity, innovation</p>
+      <p className="text-8xl font-bold">and impactful design solutions.</p>
     </div>
   );
 };

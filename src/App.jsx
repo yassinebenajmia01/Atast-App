@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+// App.js
+import React, { useState, useEffect, useContext } from 'react';
 import Navbar from './components/Navbar';
 import Project from './components/projects';
 import Model from './components/model';
@@ -9,20 +10,19 @@ import UiDesign from './components/UiDesign';
 import FeedBack from './components/FeedBack';
 import Comments from './components/Comments';
 import Footer from './components/Footer';
+import { ThemeProvider, ThemeContext } from './components/ThemeContext';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const [showToggle, setShowToggle] = useState(false);
+  return (
+    <ThemeProvider>
+      <Main />
+    </ThemeProvider>
+  );
+}
 
-  // Toggle theme and apply to <html>
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-    if (isDarkMode) {
-      document.documentElement.classList.remove('dark');
-    } else {
-      document.documentElement.classList.add('dark');
-    }
-  };
+const Main = () => {
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+  const [showToggle, setShowToggle] = useState(false);
 
   // Handle scroll to show/hide toggle button
   useEffect(() => {
@@ -54,7 +54,7 @@ function App() {
         </button>
       )}
 
-      {/* Page Content **/}
+      {/* Page Content */}
       <Navbar />
       <Project />
       <Model />
@@ -67,6 +67,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
