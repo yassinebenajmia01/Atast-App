@@ -25,7 +25,7 @@ const Navbar = () => {
         transition={{ type: "spring", stiffness: 50 }}
       >
         <a
-          className="absolute top-4 left-16 mt-6 text-5xl font-extrabold"
+          className="absolute top-4 left-16 mt-6 text-5xl font-extrabold text-white"
           href="#"
         >
           KAYO
