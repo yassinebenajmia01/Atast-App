@@ -54,7 +54,7 @@ const Main = () => {
         </button>
       )}
 
-      {/* Page Content */}
+      {/* Page Content **/}
       <Navbar />
       <Project />
       <Model />
