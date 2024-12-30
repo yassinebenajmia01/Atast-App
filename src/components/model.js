@@ -3,7 +3,7 @@ import React from "react";
 const Model = () => {
   return (
     <div className="grid grid-cols-2 gap-4 h-screen mt-20 ">
-      {/* Left Section */}
+      {/* Left Section ****/}
       <div className="relative">
         <img
           src="https://cdn.prod.website-files.com/6704f0a83f4efadc40b0be10/6706510820cd9f77df4de5f9_project-01-p-2000.webp" // Replace with the actual image URL
