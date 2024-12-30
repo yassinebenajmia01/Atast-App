@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+// App.js
+import React, { useState, useEffect, useContext } from 'react';
 import Navbar from './components/Navbar';
 import Project from './components/projects';
 import Model from './components/model';
@@ -9,33 +10,49 @@ import UiDesign from './components/UiDesign';
 import FeedBack from './components/FeedBack';
 import Comments from './components/Comments';
 import Footer from './components/Footer';
+import { ThemeProvider, ThemeContext } from './components/ThemeContext';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  return (
+    <ThemeProvider>
+      <Main />
+    </ThemeProvider>
+  );
+}
 
-  // Toggle theme and apply to <html>
-  const toggleTheme = () => {
-    setIsDarkMode(!isDarkMode);
-    if (isDarkMode) {
-      document.documentElement.classList.remove('dark');
-    } else {
-      document.documentElement.classList.add('dark');
-    }
-  };
+const Main = () => {
+  const { isDarkMode, toggleTheme } = useContext(ThemeContext);
+  const [showToggle, setShowToggle] = useState(false);
+
+  // Handle scroll to show/hide toggle button
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowToggle(true);
+      } else {
+        setShowToggle(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <div className={`${isDarkMode ? 'dark' : ''}`}>
       {/* Dark Mode Toggle */}
-      <button
-        onClick={toggleTheme}
-        className="fixed bottom-5 right-5 bg-gray-800 dark:bg-gray-200 w-14 h-8 flex items-center rounded-full p-1 cursor-pointer shadow-md"
-      >
-        <div
-          className={`bg-white dark:bg-black w-6 h-6 rounded-full transform duration-300 ${
-            isDarkMode ? 'translate-x-6' : ''
-          }`}
-        ></div>
-      </button>
+      {showToggle && (
+        <button
+          onClick={toggleTheme}
+          className="fixed bottom-5 left-5 bg-gray-800 dark:bg-gray-200 w-14 h-8 flex items-center rounded-full p-1 cursor-pointer shadow-md"
+        >
+          <div
+            className={`bg-white dark:bg-black w-6 h-6 rounded-full transform duration-300 ${
+              isDarkMode ? 'translate-x-6' : ''
+            }`}
+          ></div>
+        </button>
+      )}
 
       {/* Page Content **/}
       <Navbar />
@@ -50,6 +67,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

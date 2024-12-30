@@ -2,8 +2,8 @@ import React from "react";
 
 const Model = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 h-screen mt-20">
-      {/* Left Section */}
+    <div className="grid grid-cols-2 gap-4 h-screen mt-20 ">
+      {/* Left Section ****/}
       <div className="relative">
         <img
           src="https://cdn.prod.website-files.com/6704f0a83f4efadc40b0be10/6706510820cd9f77df4de5f9_project-01-p-2000.webp" // Replace with the actual image URL
@@ -99,7 +99,7 @@ const Model = () => {
           <span className="text-gray-500 ml-8 text-4xl">(2023)</span> {/* Increased margin to move (2024) further right */}
         </div>
         <div className="flex items-center mb-16">
-          <span className="text-6xl font-bold ml-24">Godline</span> {/* Added margin-right to move Kanba left */}
+          <span className="text-6xl font-bold ml-24">Goldine</span> {/* Added margin-right to move Kanba left */}
           <span className="text-gray-500 absolute right-[5%] text-4xl">(2023)</span>
         </div>
       </div>
