@@ -1,6 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const Introduction = () => {
+    const navigate = useNavigate();
+  
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white px-4 sm:px-8 py-8">
       
@@ -11,6 +15,7 @@ const Introduction = () => {
           style={{
             background: "linear-gradient(180deg, rgba(157, 1, 1, 1) 0%, rgba(88, 1, 1, 1) 100%)"
           }}
+          onClick={() => navigate("/login")}
         >
           Login
         </button>
