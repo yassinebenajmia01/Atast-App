@@ -60,7 +60,8 @@ export default function Login() {
           <a href="ra" className="hover:text-red-500">Recover Account</a>
           <a href="fp" className="hover:text-red-500">Forgot Password?</a>
         </div>
-        <button className="w-full bg-white text-black font-bold py-2 rounded-3xl mt-36 hover:bg-gray-200">
+        <button className="w-full bg-white text-black font-bold py-2 rounded-3xl mt-36 hover:bg-gray-200" onClick={() => navigate("/content")}
+        >
           Login
         </button>
         <p className="text-center text-gray-400 text-sm mt-4"  onClick={() => navigate("/signup")}>
