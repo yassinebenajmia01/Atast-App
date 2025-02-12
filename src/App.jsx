@@ -6,6 +6,9 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import SignupSuccess from "./components/SignupSuccess";
 import Content from "./components/Atast/Content";
+import Profile from "./components/Atast/Profile";
+import SettingsComponent from "./components/Atast/Settings";
+import PrivacyPolicy from "./components/Atast/Privacy";
 
 
 const App = () => {
@@ -17,7 +20,11 @@ const App = () => {
         <Route path="/login" element={<Login />} /> 
         <Route path="/signup" element={<Signup />} /> 
         <Route path="/signupsuccess" element={<SignupSuccess />} /> 
-        <Route path="/content" element={<Content />} /> 
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/settings" element={<SettingsComponent />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route  inde path="/content" element={<Content />} />
+         
       </Routes>
     </Router>
   );

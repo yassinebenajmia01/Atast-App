@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Stories from "./Stories";
 import Sidebar from "./Sidebar";
+import EventPosts from "./Post";
+import Footer from "../Footer";
 
 function Content() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -14,6 +16,7 @@ function Content() {
 
   return (
     <>
+    
       <Navbar />
       <button
         className="absolute top-4 left-4 w-[44px] h-[44px] px-4 py-2 text-white rounded"
@@ -31,6 +34,8 @@ function Content() {
         </div>
       )}
       <Stories />
+      <EventPosts/>
+      <Footer/>
     </>
   );
 }
