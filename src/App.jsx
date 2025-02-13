@@ -9,6 +9,10 @@ import Content from "./components/Atast/Content";
 import Profile from "./components/Atast/Profile";
 import SettingsComponent from "./components/Atast/Settings";
 import PrivacyPolicy from "./components/Atast/Privacy";
+import SearchBar from "./components/Atast/SearchBar";
+import SearchPage from "./components/Atast/SearchPage";
+import Saved from "./components/Atast/Saved";
+import Atast from "./components/Atast/Atast";
 
 
 const App = () => {
@@ -23,7 +27,12 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<SettingsComponent />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route  inde path="/searchbar" element={<SearchBar />} />
+        <Route  inde path="/search" element={<SearchPage />} />
+        <Route  inde path="/saved" element={<Saved />} />
+        <Route  inde path="/atastss" element={<Atast />} />
         <Route  inde path="/content" element={<Content />} />
+
          
       </Routes>
     </Router>
