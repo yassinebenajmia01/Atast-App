@@ -13,7 +13,7 @@ const Navbar = () => {
 
       </button>
       
-      {/* Title */}
+      {/* Titlee */}
       <h1 className="text-3xl font-semibold font-[montserrat]">Atastians</h1>
       
       {/* Right Icon */}
