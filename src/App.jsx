@@ -13,6 +13,10 @@ import SearchBar from "./components/Atast/SearchBar";
 import SearchPage from "./components/Atast/SearchPage";
 import Saved from "./components/Atast/Saved";
 import Atast from "./components/Atast/Atast";
+import Isitcom from "./components/Atast/Isitcom";
+import Digitium from "./components/Atast/Digitium";
+import Chat from "./components/Atast/Chat";
+import Members from "./components/Atast/Members";
 
 
 const App = () => {
@@ -31,7 +35,13 @@ const App = () => {
         <Route  inde path="/search" element={<SearchPage />} />
         <Route  inde path="/saved" element={<Saved />} />
         <Route  inde path="/atastss" element={<Atast />} />
+        <Route  inde path="/isitcom" element={<Isitcom />} />
         <Route  inde path="/content" element={<Content />} />
+        <Route  inde path="/chat" element={<Chat/>} />
+        <Route  inde path="/digitium" element={<Digitium />} />
+        <Route  inde path="/members" element={<Members />} />
+
+
 
          
       </Routes>
