@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import { FaHeart, FaComment, FaShare,FaBookmark } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const events = [
   {
@@ -60,6 +61,13 @@ const EventPost = ({ event }) => {
   const toggleLike = () => {
     setIsLiked(!isLiked);
   };
+  const handleImageClick = () => {
+    if (event.club === "ATAST_ISITCOM") {
+      navigate("/digitium");
+    }
+  };
+  const navigate = useNavigate();
+
 
   return (
     <div className="bg-[#a01426] rounded-xl p-4 mb-4 shadow-lg text-white w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
@@ -78,7 +86,8 @@ const EventPost = ({ event }) => {
 
       {/* Event Image */}
       <div className="rounded-lg overflow-hidden shadow-lg">
-        <img src={event.image} alt={event.title} className="w-full h-auto object-cover" />
+        <img src={event.image} alt={event.title} className="w-full h-auto object-cover"   onClick={handleImageClick}
+        />
       </div>
 
       {/* Engagement Section */}
