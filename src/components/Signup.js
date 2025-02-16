@@ -1,8 +1,8 @@
 import { ArrowLeft } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect, useRef } from 'react';
 import { FaEye, FaEyeSlash, FaEnvelope, FaUser, FaLock, FaUsers, FaBriefcase } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-
+import { useAuth } from '../context/authContext';
 
 export default function SignupForm() {
   const [showPassword, setShowPassword] = useState(false);
@@ -11,7 +11,99 @@ export default function SignupForm() {
   const [selectedClub, setSelectedClub] = useState("Club");
   const [showPostList, setShowPostList] = useState(false);
   const [selectedPost, setSelectedPost] = useState("Post");
-  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+const [firstName, setFirstName] = useState('');
+const [lastName, setLastName] = useState('');
+const [club, setClub] = useState('');
+const [post, setPost] = useState('');
+const [password, setPassword] = useState('');
+const [confirmPassword, setConfirmPassword] = useState('');
+const [isLoading, setIsLoading] = useState(false);
+
+const navigate = useNavigate();
+const { signup } = useAuth();
+const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowClubList(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleSelectClub = (clubName) => {
+    setSelectedClub(clubName);
+    setClub(clubName);
+    setShowClubList(false);
+  };
+const handleSignUp = async (e) => {
+  e.preventDefault();
+
+  if (password !== confirmPassword) {
+    alert("Passwords do not match");
+    return;
+  }
+
+  // Email validation
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address");
+    return;
+  }
+
+  // Password strength check
+  if (password.length < 8) {
+    alert("Password must be at least 8 characters long");
+    return;
+  }
+
+  try {
+    setIsLoading(true);
+  
+    const clientData = {
+      email,
+      firstName,
+      lastName,
+      club,
+      post,
+      password
+    };
+  
+    // Call signup function
+    const response = await signup(clientData);
+  
+    console.log("Sent Data:", clientData);
+    console.log("Signup Response:", response);
+  
+    // Check response status or fallback to a success indicator
+    if (response?.status >= 200 && response?.status < 300) {
+      navigate('/signupsuccess'); // Navigate on success
+    } else {
+      const errorMessage = response?.data?.error || "Unexpected response from server";
+      console.warn("Signup failed:", errorMessage);
+      alert(`Signup failed: ${errorMessage}`);
+    }
+  } catch (error) {
+    // Handle Axios errors
+    if (error.response) {
+      console.error('Server Error:', error.response.data);
+      alert(`Signup failed: ${error.response.data?.message || 'Server error'}`);
+    } else if (error.request) {
+      console.error('Network Error: No response received', error.request);
+      alert('Network error: No response received from server');
+    } else {
+      console.error('Unexpected Error:', error.message);
+      alert(`Signup failed: ${error.message}`);
+    }
+  } finally {
+    setIsLoading(false);
+  }
+  
+};
 
   const clubs = [
     { name: "Atast Student Section", img: "https://scontent.ftun10-2.fna.fbcdn.net/v/t39.30808-6/320701792_706953237460702_1007915427923838734_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=j0jbUUsul_IQ7kNvgHEnFX9&_nc_oc=AdjVXfnoFeLBh0S3KWjVfQtpgrgioEthPlSJ7Zu4I8UcBwL7V1XzYCju4VYWjyQeOH4&_nc_zt=23&_nc_ht=scontent.ftun10-2.fna&_nc_gid=A1EdgswA9RVvdpckxNlmTI6&oh=00_AYDUKidT7asKaRJTN-ZpL2Eh_L1_9kqyb1qAw-ugzKiwrw&oe=67B16534" },
@@ -32,6 +124,8 @@ export default function SignupForm() {
     { name: "Sponsoring Manager", img: "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" }
   ];
 
+  
+
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-black text-white">
@@ -49,77 +143,87 @@ export default function SignupForm() {
             className="w-[136px] h-[148px]  "
           />
         </div>
-        <form>
+        <form  onSubmit={handleSignUp}>
           <div className="space-y-4">
             <div className="relative border-b-2 border-gray-500">
               <FaEnvelope className="absolute left-3 top-3 text-gray-400" />
-              <input type="email" placeholder="Email" className="w-full pl-10 p-2 bg-black focus:outline-none" />
+              <input type="email" placeholder="Email" className="w-full pl-10 p-2 bg-black focus:outline-none" onChange={(e) => setEmail(e.target.value)} />
             </div>
             <div className="relative border-b-2 border-gray-500">
               <FaUser className="absolute left-3 top-3 text-gray-400" />
-              <input type="text" placeholder="First Name" className="w-full pl-10 p-2 bg-black focus:outline-none" />
+              <input type="text" placeholder="First Name" className="w-full pl-10 p-2 bg-black focus:outline-none"  onChange={(e) => setFirstName(e.target.value)} />
             </div>
             <div className="relative border-b-2 border-gray-500">
               <FaUser className="absolute left-3 top-3 text-gray-400" />
-              <input type="text" placeholder="Last Name" className="w-full pl-10 p-2 bg-black focus:outline-none" />
+              <input type="text" placeholder="Last Name" className="w-full pl-10 p-2 bg-black focus:outline-none" onChange={(e) => setLastName(e.target.value)} />
             </div>
-            <div className="relative border-b-2 border-gray-500" onClick={() => setShowClubList(!showClubList)}>
-              <FaUsers className="absolute left-3 top-3 text-gray-400" />
-              <div className="w-full pl-10 p-2 bg-black cursor-pointer">{selectedClub}</div>
-              {showClubList && (
-                <div className="absolute w-full text-white rounded-lg mt-1 shadow-lg z-10 p-2 border border-gray-600" style={{
-                  background: "linear-gradient(180deg, rgba(157, 1, 1, 1) 0%, rgba(88, 1, 1, 1) 100%)"
-                }}>
-                  {clubs.map((club, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center p-3 space-x-3 border border-black rounded-3xl hover:bg-red-500 cursor-pointer font-bold"
-                      onClick={() => { setSelectedClub(club.name); setShowClubList(false); }}
-                    >
-                      <img src={club.img} alt={club.name} className="w-7 h-7 mr-2 rounded-full" />
-                      {club.name}
-                    </div>
-                  ))}
-                </div>
-              )}
+            <div className="relative border-b-2 border-gray-500" ref={dropdownRef}>
+      <FaUsers className="absolute left-3 top-3 text-gray-400" />
+      <div
+        className="w-full pl-10 p-2 bg-black text-white cursor-pointer select-none"
+        onClick={() => setShowClubList((prev) => !prev)}
+        role="button"
+      >
+        {selectedClub || 'Select a club'}
+      </div>
+
+      {showClubList && (
+        <div
+          className="absolute w-full text-white rounded-lg mt-1 shadow-lg z-10 p-2 border border-gray-600"
+          style={{
+            background: 'linear-gradient(180deg, rgba(157, 1, 1, 1) 0%, rgba(88, 1, 1, 1) 100%)',
+          }}
+        >
+          {clubs.map((club, index) => (
+            <div
+              key={index}
+              className="flex items-center p-3 space-x-3 border border-black rounded-3xl hover:bg-red-500 cursor-pointer font-bold transition duration-300"
+              onClick={() => handleSelectClub(club.name)}
+            >
+              <img src={club.img} alt={club.name} className="w-7 h-7 mr-2 rounded-full" />
+              {club.name}
             </div>
-            <div className="relative border-b-2 border-gray-500" onClick={() => setShowPostList(!showPostList)}>
-              <FaBriefcase className="absolute left-3 top-3 text-gray-400" />
-              <div className="w-full pl-10 p-2 bg-black cursor-pointer">{selectedPost}</div>
-              {showPostList && (
-                <div className="absolute w-full text-white rounded-lg mt-1 shadow-lg z-10 p-2  border border-gray-600" style={{
-                  background: "linear-gradient(180deg, rgba(157, 1, 1, 1) 0%, rgba(88, 1, 1, 1) 100%)"
-                }}>
-                  {posts.map((post, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center p-4 border  border-black rounded-lg hover:bg-red-500 cursor-pointer font-bold space-x-4"
-                      onClick={() => { setSelectedPost(post.name); setShowPostList(false); }}
-                    >
-                      <img src={post.img} alt={post.name} className="w-7 h-7 mr-2 rounded-full" />
-                      {post.name}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+          ))}
+        </div>
+      )}
+    </div>
+<div className="relative border-b-2 border-gray-500" onClick={() => setShowPostList(!showPostList)}>
+  <FaBriefcase className="absolute left-3 top-3 text-gray-400" />
+  <div className="w-full pl-10 p-2 bg-black cursor-pointer" onChange={(e) => setPost(e.target.value)}>{selectedPost}</div>
+  {showPostList && (
+    <div className="absolute w-full text-white rounded-lg mt-1 shadow-lg z-10 p-2 border border-gray-600" style={{
+      background: "linear-gradient(180deg, rgba(157, 1, 1, 1) 0%, rgba(88, 1, 1, 1) 100%)"
+    }}>
+      {posts.map((post, index) => (
+        <div
+          key={index}
+          className="flex items-center p-4 border border-black rounded-lg hover:bg-red-500 cursor-pointer font-bold space-x-4"
+          onClick={() => { setSelectedPost(post.name); setPost(post.name); setShowPostList(false); }}
+        >
+          <img src={post.img} alt={post.name} className="w-7 h-7 mr-2 rounded-full" />
+          {post.name}
+        </div>
+      ))}
+    </div>
+  )}
+</div>
             <div className="relative border-b-2 border-gray-500">
               <FaLock className="absolute left-3 top-3 text-gray-400" />
-              <input type={showPassword ? "text" : "password"} placeholder="Password" className="w-full pl-10 p-2 bg-black focus:outline-none" />
+              <input type={showPassword ? "text" : "password"} placeholder="Password" className="w-full pl-10 p-2 bg-black focus:outline-none" onChange={(e) => setPassword(e.target.value)} />
               <div className="absolute right-3 top-3 cursor-pointer" onClick={() => setShowPassword(!showPassword)}>
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </div>
             </div>
             <div className="relative border-b-2 border-gray-500">
               <FaLock className="absolute left-3 top-3 text-gray-400" />
-              <input type={showConfirmPassword ? "text" : "password"} placeholder="Confirm Password" className="w-full pl-10 p-2 bg-black focus:outline-none" />
+              <input type={showConfirmPassword ? "text" : "password"} placeholder="Confirm Password" className="w-full pl-10 p-2 bg-black focus:outline-none" onChange={(e) => setConfirmPassword(e.target.value)} />
               <div className="absolute right-3 top-3 cursor-pointer" onClick={() => setShowConfirmPassword(!showConfirmPassword)}>
                 {showConfirmPassword ? <FaEyeSlash /> : <FaEye />}
               </div>
             </div>
             
-            <button className="w-[62%] bg-white ml-16 text-black font-bold py-2 rounded-3xl mt-[80%] hover:bg-gray-200"  onClick={() => navigate("/signupsuccess")}> 
-            SignUp
+            <button className="w-[62%] bg-white ml-16 text-black font-bold py-2 rounded-3xl mt-[80%] hover:bg-gray-200"  disabled={isLoading} > 
+            {isLoading ? 'Signing Up...' : 'Sign Up'}
         </button>
             <p className="text-center text-gray-400">Already have an account? <a href="login" className="font-[urbanist]" style={{ color: "rgba(0, 160, 155, 1)" }}>Log In</a></p>
           </div>
@@ -127,4 +231,4 @@ export default function SignupForm() {
       </div>
     </div>
   );
-}
+};
