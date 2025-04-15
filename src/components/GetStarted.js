@@ -11,7 +11,7 @@ const GetStarted = () => {
       {/* Logo */}
       <div className="relative flex flex-col items-center w-full mb-56">
         <img 
-          src="https://s3-alpha-sig.figma.com/img/b1d1/e571/66c9a73d629027eb6697c03cec62c28c?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fVFFqCU3z2DnRRnYxxFu9QtVyB2~Hf7UyeSuggySFRj3feIu2CN~Y1zAlfUfcwjJPkwf0uwAMLHW5W2R48aXQ88gp8Rgf-Lc1nsbLHMKv9kdMcf1-Uci6NERdjAsM6v6cCRWFykQIVgNtmE-kXBRicY2qm2RDbrWGnuajD80L4vTX6LM8wDkSyeIEeNTLm0NKtLxCl~K~0sXZ4vCSKp6M-Sq2xciBodo2FeEMxnOFRQ77W1ODnPydl72-75BP1Ds~BYRh2VD2AQIc4WMXJLXuK8Mv2eHf1ctoRRrWNQkx3eZd9qwJYuKM28uzQ9gkF8-4ROlp8SdFhCInjXbaKZkcw__" 
+          src="https://s3-alpha-sig.figma.com/img/b1d1/e571/66c9a73d629027eb6697c03cec62c28c?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tdGTqoTY10VvwZnYj3UX6j5ZZ7Qu~qkT1A~MjvouLookZNmhfjIVU85pEKY1~taYh789T6G82e1HNviSUyXIeLdCAUUSKl~-GoQHk3yHx5X4SuwJllTCkb~Ym2TH1uTEJ1VbrVZGU0ecHqNiLhtaODj3UeHlLg-QqJFUJdxh6LH75n~DkzV2AhIwhu~WwEAIedod-Tehn6xeDlYfU6~-yk8nGqvEg2if1yN2nutE9vH9pMDhYl6iGPdblgaUX2LMX4HgdTNsezm5~dokNSvADqIzixNp2m7Gpj6y-RKjH-dv9Kx-~5e4foeLLImaKPpWEoyYVEGk~s-Rh~4cnrcGZg__" 
           className="w-40 sm:w-52 md:w-60 lg:w-64"
           alt="ATAST Logo"
         />
@@ -61,7 +61,7 @@ const GetStarted = () => {
         
         {/* Footer Icon */}
         <img 
-          src="https://s3-alpha-sig.figma.com/img/6f88/a6dc/1756e446fa78dc5ccb59b81bc1121448?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=W0UqYg0OQTHHn2hQNZ37SUcq-MpUKNsPjNcmzV4g4VR2Nv5QMuJtlMuHzeQgKYO8vhhQ~BHwjxOkuiUchHUU4~36jJrwZPlv3adVH5TpH2l0oP3x7CWsGgz9bNxxy-lX4YqZk-eEVcf5rJh0jIEbau6SNiGaIhPJavt54PRRZFMBu3XxmVnIaNdcda7wtZWa~U0XvSw3Pqo9KhD3VPbgBovP5R~kb-yPs0ewCk7otI61tIDAqUh0r4Hqd1ODWwEmuh7mJBDN18PuS9zUliJQNNj62L2xhIgM5E3YTWAaitqLrpipSNQppigIXKuu1u3Qg-I~ZjxCNAwNjdRoGV1TDg__"
+          src="https://s3-alpha-sig.figma.com/img/6f88/a6dc/1756e446fa78dc5ccb59b81bc1121448?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DILfiKpZcmqIDRk7fUaQvY6AMB1n0kTjWDq-O8rpPITEeMUjiPBkwHoJ9nUNZxkR4yDWJXVM~Wr8oJ4u9XtJ9mnW0LYPaKmyX9udzMEI~EuEEePEAWIjQqa-muFk~4Q~E3oFt4pSLT08p1Ttq1AvBV79oElAhqfA9x7Z65V01hjPV7K9PW-6ueGkBG~uQlIzr~hdNzV96bApXMhKEaBVYH-IhKcAxgIlpY0yJVdFmykVESIex2aHnxWq4iyknTorhzJDHAUkLR2dTFlbULt5j1Qi4t2F88l5~z0CZ0z5ooNCeVrjBb0-MuSfviW9ZC7LtusLb~fpdazJ0-gMxUNc6A__"
           className="w-20 sm:w-12 md:w-14 mt-2"
           alt="Footer Icon"
         />

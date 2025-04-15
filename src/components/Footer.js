@@ -33,7 +33,7 @@ const Footer = () => {
       <button className="text-white flex flex-col items-center">
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lHgi81BODlpm5aDmM2uDWAXTjH7bu0WiFxoai-6rIQJqezhHvebceQt-O222gfC6jSCC2308iFbdUJJ3BjKmXjyg5kNt0b8YHxCXyHbia9OuqlTbZnEG7Kun6ifQPHa5oC226GcRmpUfLm~w5-JAg~msMjMSoo7yZU3CMedBof3DD83VHLnF0y0IBYxMR-CmoZrheMepLvJroFiMYQ8wrK0LCFH9cyTsacdA5P8iOaHOKqS-oP75z2QxUpuqTL4ijV0uM6l25ohE4NHf~GLt8bsaiKIRSsJsj7S0QcGyUulZl1TbwG149Kj7IrOJRiDftAlrH1va7zcd8D51s599jA__"
+            src="https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__"
             alt="Profile"
             className="w-8 h-8 rounded-full"
             onClick={() => navigate("/isitcom")}

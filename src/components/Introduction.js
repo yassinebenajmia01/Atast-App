@@ -29,7 +29,7 @@ const Introduction = () => {
          {/* Title Image */}
       <div className="mt-6 w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
         <img 
-          src="https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WvKd3qv3lNlq91rQiDGjZA4pRuHKClNvk5rcDwJzv~I8TSMlQ68Sl8hq4dPcRxICLkp6K28MnVAl9mANJLTmBLKDsunG6T11YLBTodS3~HLkpx4tC4xXu1RM~9ay~3swiG015vif-9SVcqQgnMJShPx0HNyembryc8w9ku~UFbtjqsIKpRd~mGu7a0mIzFWkAS6Te4c5CXrhm~bYwyswapKDuN4-CLcd~oBfkVHBfDRYuFUopVTCsKaN1Y9O6~~iLg2bsoYwSduOw-aIHphUpIgLvwLyOGfjEoO8p4svJ93fdFZYLPj5QxKI8BobAVVPgk5su4nlco-vgloX3RJKYg__"
+          src="https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NY8zGy9ZXoKZeZPtHUexfGCJ5VbrcuMmGCFaxxkJIwbzVAB9gMgjSBzCYSY-Mt4b1cdGsYr9OgjsdY4lEwu2~UqWSq8ljtaUj9nvYQSbOw~WF8YeU1JgwpaBYuqXxKacSZxjOQKvZmMiYXt2VxGB9uOKbTJtCGwTsvMyau4qY40toUoS4DHzS32CiOjCpK-FJSg3RZw7jY6PMJ~MODLd8miF3EBB9sZY7UABNOmKEb~y06V2XboAqldYnfA4FtVA7-2Pfdt5EDPOvHqdyQWz-zqjnSc8GwST9Y0AvUmHWw~5mWHcKIPgr6mlEN0O6n2yAuC7C2RfUVxKGD93ZeleLg__"
           className="rounded-lg shadow-lg w-full h-auto"
           alt="Atast"
         />
@@ -46,7 +46,7 @@ const Introduction = () => {
       {/* Hatem Slimen's Image */}
       <div className="mt-6 w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
         <img 
-          src="https://s3-alpha-sig.figma.com/img/8925/db14/557717545ec583fd5a561b9c1cd9e222?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Sagg2ZRwK~Xqps1X4TzXFPhcuH9hZDOe7-fxhIGFOPD5VR-16TMICjhC7mtfSuxnn1c0~mvSZazrYnjqj3rIudgjXiaCmLkESy4wjOfJyrzGzs1-J5zrsfk3tQ2bQVr0ifoaIjCqvCClF7-4ElY-MWThrUmw9rXzPH1eliMaKmWIC1Ymn7tde4TrKmE0cdYwSHHE~GWlL6mNc2~rsDe-3bRyj~rysNkHZDkbRPVvLSwEOayw1~gHTPvV-Fzg3UbRa7BFHFMn6O3QU6DQZl6S3Kx5ZVQllRc1g~qtvnIp1xp5RrL~HG6zSxuCgJ0JrmBQUPs~ybiudP8sYX779BpwlA__"  
+          src="https://s3-alpha-sig.figma.com/img/8925/db14/557717545ec583fd5a561b9c1cd9e222?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=H9HlS1I0Rt8esr6aTNSYGBuVr5aAAvHGgmSq0rMdIXRZMkNO0SFlj9AV0F7KO~b~vbXDGCaSM8eBPNV6TeCIHKnHostrpm-el8kSXAnTjrEfBA~BYlJm6wtTMnp6bCdop6N2RErN6UCiQ0kW5eBPWbdMJTLgS~3daz7EcPTvuFB~Z4VjkpGFAWLfdoOAA4w6I9RdkXJFLO7qBO~ykNo8-tCaw2XqcmoZCFz42aB8s~PD96SQjGlIvtSoZXbngBsV8NmfUBWsUzJqWPsZyZqkwi-cLtXrqd0dV9ZExv5a9qyH5wXrmSAVJgDoJXTcI~6wPBPNseuI85bODPU1GCjieg__"  
           alt="Hatem Slimen"
           className="rounded-lg shadow-lg w-full h-auto"
         />

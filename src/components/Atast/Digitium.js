@@ -12,7 +12,7 @@ const Digitium = () => {
       <button className="text-white absolute left-6" onClick={() => navigate(-1)}>
           <ArrowLeft className="w-6 h-6 mt-4" />
         </button>
-        <img src=" https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gt1KWepNRxkKxwr1EGWeMvH3cEQwJh47rbjPm56au1u82DOYn3vyu4uJ2GwUIEpMZmpaQyCFZ1pgM71YTBloUCWBfjLOH0MGSDuhd69ZOSbJywFEOhc3M2V2lUgJKN6-NwUsi6Hpyj9xXMVYsLp-XOZIl4wfZM~5aej-iHB30AMdEQfw-hVId~JrJklGELKv-lEZdwuKCmJttIQR5qeoGsvaFysl7cEY0S3-vMiblgIEvqZ4R0VANhVFfQ~70GOCcoOzRid8HnETGSW8KG9y3ozQb66ZMHQuJ6cA~iLWYqGIqeyIqnkxctqAfnajlTbUjO2k0aLJlK80N9RFtjAXqw__" alt="digitium" className="rounded-3xl"/>
+        <img src=" https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a5yd1SVu4NBrnjxUV5wPfik47b8Lnn5KdM9ALf5mZc6MBOyJAlsU0S9UmEBDVhtFh~~SWir8SyJ4H02S1BixgRyNpuCT4JdJvn21s~rjVomEsiHXOifY2Et5NAv~ow5bpZYCVFkxl7t7XZQNGZWwh6p6P-xlevg~wIcLHrvMxnqCgMEbW4N-nZZb-Ge1uVTNvJsnVQj-G0xU1~NkzPAawU0gzKzKZ9T4ZM27-rDo6V7LUP8Vf2-zB7lKLwBFnwwnYnAKKRtJIr98aOHD93x7m3fYFE47vfco2nJdoWnNxCgAmWu~~bZuG7qn~nF4R6f8tjyWUoh3Dg39huUgwe6TLQ__" alt="digitium" className="rounded-3xl"/>
       </div>
       <div className="mt-6 flex items-center justify-between p-3 rounded-md " >
          

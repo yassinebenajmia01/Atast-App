@@ -13,19 +13,19 @@ const events = [
     isSaved: true,
     likes: 0,
     comments: 0,
-    headImg: "https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lHgi81BODlpm5aDmM2uDWAXTjH7bu0WiFxoai-6rIQJqezhHvebceQt-O222gfC6jSCC2308iFbdUJJ3BjKmXjyg5kNt0b8YHxCXyHbia9OuqlTbZnEG7Kun6ifQPHa5oC226GcRmpUfLm~w5-JAg~msMjMSoo7yZU3CMedBof3DD83VHLnF0y0IBYxMR-CmoZrheMepLvJroFiMYQ8wrK0LCFH9cyTsacdA5P8iOaHOKqS-oP75z2QxUpuqTL4ijV0uM6l25ohE4NHf~GLt8bsaiKIRSsJsj7S0QcGyUulZl1TbwG149Kj7IrOJRiDftAlrH1va7zcd8D51s599jA__",
-    image: "https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=gt1KWepNRxkKxwr1EGWeMvH3cEQwJh47rbjPm56au1u82DOYn3vyu4uJ2GwUIEpMZmpaQyCFZ1pgM71YTBloUCWBfjLOH0MGSDuhd69ZOSbJywFEOhc3M2V2lUgJKN6-NwUsi6Hpyj9xXMVYsLp-XOZIl4wfZM~5aej-iHB30AMdEQfw-hVId~JrJklGELKv-lEZdwuKCmJttIQR5qeoGsvaFysl7cEY0S3-vMiblgIEvqZ4R0VANhVFfQ~70GOCcoOzRid8HnETGSW8KG9y3ozQb66ZMHQuJ6cA~iLWYqGIqeyIqnkxctqAfnajlTbUjO2k0aLJlK80N9RFtjAXqw__"
+    headImg: "https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__",
+    image: "https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a5yd1SVu4NBrnjxUV5wPfik47b8Lnn5KdM9ALf5mZc6MBOyJAlsU0S9UmEBDVhtFh~~SWir8SyJ4H02S1BixgRyNpuCT4JdJvn21s~rjVomEsiHXOifY2Et5NAv~ow5bpZYCVFkxl7t7XZQNGZWwh6p6P-xlevg~wIcLHrvMxnqCgMEbW4N-nZZb-Ge1uVTNvJsnVQj-G0xU1~NkzPAawU0gzKzKZ9T4ZM27-rDo6V7LUP8Vf2-zB7lKLwBFnwwnYnAKKRtJIr98aOHD93x7m3fYFE47vfco2nJdoWnNxCgAmWu~~bZuG7qn~nF4R6f8tjyWUoh3Dg39huUgwe6TLQ__"
   },
   {
     id: 2,
     club: "ATAST_FMS",
     handle: "@Comunity_Manager",
-    headImg: "https://s3-alpha-sig.figma.com/img/bc8e/c02b/7cf67a7c672823c4d37c8bbf7ec80d0c?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fEOdhXCTtQQRkVaRyTNr8HUrIhVLqEttuM9-FBRLT-3JxsIlKXEKSC0pUnMN3LNsUhmSTUNU5L9F~uHwsjrLDenci4~VMXFP88AWuVaHm2TgIUUlXCKm6FDIhCgdvC3AK~594eScL5T56WSFrKqZMSxgK5p2p4h0N4nyEdboUzLu4YOekkcQW30X8Bd~zRxJCHZegwMbkXtP9hjl3zBqkF-uzkmWmkaBMp6kG6vTQ6I26RdbrhMNDYre7kf4sPbpdbsVad2m43TwydZDXGjv~gTvPlFdF9T8c9LH0U6OIf9by~uUJgGH6TkrMzb~zhhnnqDPA8eacna1DCVphr52yw__",
+    headImg: "https://s3-alpha-sig.figma.com/img/5db9/55f2/74677ec53a18179039b780b12df46c61?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fG5YjQjxaoEzW~tZ6I8nJrmkRF4oIpGCPFY7zfsVu6TjZWlUr0iTEnPMNF-HVm4r4LEIBM9v-C5q6zPWCCTbf~x~N6Qb7WB-PgfvJUKlzemzzFFw2cY7i3kTI-~hH3zoRjrMWgXgbkVtDdl6MlWp0A1-Y6eZTgXOqhlgbUyuc9xaduTj0bOq5i3IPrBdFJUMLyEhTnecu6Wse9l4Qy5uT1me9vaQxoVVRrR1FcnqgIok00znS1TG5979JV5u3hSIhj2VtrES26hrcJ5pFxR1oz3LeqJ2A8oEZKf3cJK8njL818o1vkQfYIBIh-VcCqKY5cxvrnGpWtKVYn8TeiZ69Q__",
     likes: 0,
     isSaved: true,
     isLiked:false,
     comments: 0,
-    image: "https://s3-alpha-sig.figma.com/img/b804/5200/dcbe8f2db0aec22af4eb6234ab290bce?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qFJhPGHyVMSZypRb0P8I1COEDDJ-dQVhcC8gND0z3s6llcTsx~RRxwt~18vJAMGPNQsqvkyUnoRHcMRN6LrEnXw4Sq7ghjLzy2tCDb4AfgDK5OeaTtRrkDQhf96bWL6OjNYiEbhYE~t~aluH~R-QlGwvM8IyKyjN0M7--N2nVl8x9r8zKNBPtFfAVgvxYiH-1mSnmseegcB0HxYcTiYdgkUBj0ycR28gWnlkFCjJ-dwD4iNdVY-5wxE3jj33Q0IS6cViLqcqWSyPRV9Jf84W8i6KdmzURj5wBk~mQ7hHnfAA9cgfXjNd32hpnS8~5bPhfZlQ0hU473OEWq0wdXDaYg__"
+    image: "https://s3-alpha-sig.figma.com/img/6fab/4f21/8c7dabb60fa363f0a2bf7ed19737fafc?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rD9yneTFFusIHglKCdU4GcHwQhzAOag~UsH-JAjDx1UsAUjG0Am-TRUbmUEGurV3t4lPP3x717dPIJNscMQtzcXIkpR5eSDwV6vBT9p~cWMdtNMjYJcgUwp3cuUcmoCyYvjXxccG2Nw18Sjle3dFyA7UIhKbspnCOrX0YTYLpuVapB4t0y63BFdCczBUyuYLJ2~pbRwvR929x93Y0hworLDRpnGrOVbmv-SlbXcO~3XdRwXOTQWdJZspSGFaYfna1RoJigQuBtG7mRn5UUJO3x5Qw6f7mEEFtpA4tFZZQHU7y5oKR~sm1EobXW18-CAxpH2Ut0gTwwsKZhNunrdoPQ__"
   },
 ];
 
@@ -91,7 +91,7 @@ const Saved = () => {
       </button>
 
       {/* Profile Title - Centered */}
-      <h1 className="text-gray-300 text-2xl font-semibold mx-auto ml-[40%]">Saved</h1>
+      <h1 className="text-gray-300 text-2xl font-semibold mx-auto ml-[46%]">Saved</h1>
 
       {events.map((event, index) => (
         <EventPost key={index} event={event} />

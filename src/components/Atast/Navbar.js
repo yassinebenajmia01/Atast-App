@@ -18,7 +18,7 @@ const Navbar = () => {
       
       {/* Right Icon */}
       <button className="w-[40px] h-[40px]  rounded-full flex items-center justify-center" style={{ backgroundColor: "rgba( 92, 3, 11, 1)" }}>
-        <img src="https://s3-alpha-sig.figma.com/img/6f88/a6dc/1756e446fa78dc5ccb59b81bc1121448?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=KrARwPqQnYYjD~JscX93hsQDjiiJBMIW32SR1AKbFmu2BLatM9upR49JWx7c7GvxsmH7QsooMkNim2rJclGdi~7x0g-zbyQW04COLxfddJXDOJDNvWmuU2z0gtOAqn2M9MDaOEHnI-V8RVwGvqL3Bf6i5F0uteObszXOVuWtaEzr3-wONWVADgE51LFVyIJNyc2LdoEPhJ~k~vOEra~hvzTOO8AKv6~aq4RI3tkfxLFL-XKxVplsh1~ulAGikpYsarHKvAZsmO5A3N9Sz4zhgulCFe6ZwV2hFubdT6ds5aCFtlFN0Fdj5GfAmbCfWENvZdj4ZAChxZZfPMBx4BAimg__"
+        <img src="https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NY8zGy9ZXoKZeZPtHUexfGCJ5VbrcuMmGCFaxxkJIwbzVAB9gMgjSBzCYSY-Mt4b1cdGsYr9OgjsdY4lEwu2~UqWSq8ljtaUj9nvYQSbOw~WF8YeU1JgwpaBYuqXxKacSZxjOQKvZmMiYXt2VxGB9uOKbTJtCGwTsvMyau4qY40toUoS4DHzS32CiOjCpK-FJSg3RZw7jY6PMJ~MODLd8miF3EBB9sZY7UABNOmKEb~y06V2XboAqldYnfA4FtVA7-2Pfdt5EDPOvHqdyQWz-zqjnSc8GwST9Y0AvUmHWw~5mWHcKIPgr6mlEN0O6n2yAuC7C2RfUVxKGD93ZeleLg__"
         alt="none" className="w-[35px] h-[25px]" onClick={() => navigate("/atastss")}></img>
       </button>
     </nav>

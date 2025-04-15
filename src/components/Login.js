@@ -18,7 +18,7 @@ export default function Login() {
         </button>
         <div className="flex justify-center mb-32">
           <img
-            src="https://s3-alpha-sig.figma.com/img/b1d1/e571/66c9a73d629027eb6697c03cec62c28c?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=glwhmfxh8~53oiraWtYTQKF7XUsvGqyTMd-HTuwqRBXZ9BmpHFAm1izmbrrH65SaoEU0BuIeSKaIkeEgKySwUuCRc5kkc1hTyiCWfyXlQc63xu~Hl3gjFcJkb4jabO-b9YRnT1v4MNKtM~fRbENIXICtgRXtrZr4M8GotjKqyRKNMYV~ixCFltV1adosJrcMarAZyDGCmXOuoPlN5D88gf2XxQj3NtQctz~n91xsicI7s-DIJHVLICiDugDKcUxNStR-Sw3FGtr9GhvMrqaa2MCCSjyXHmQ-sysJz4is8q2NWJAfgiyXIaEjm5~rcaUnSYoxhONKQHz6Ok0u655pDg__"
+            src="https://s3-alpha-sig.figma.com/img/b1d1/e571/66c9a73d629027eb6697c03cec62c28c?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tdGTqoTY10VvwZnYj3UX6j5ZZ7Qu~qkT1A~MjvouLookZNmhfjIVU85pEKY1~taYh789T6G82e1HNviSUyXIeLdCAUUSKl~-GoQHk3yHx5X4SuwJllTCkb~Ym2TH1uTEJ1VbrVZGU0ecHqNiLhtaODj3UeHlLg-QqJFUJdxh6LH75n~DkzV2AhIwhu~WwEAIedod-Tehn6xeDlYfU6~-yk8nGqvEg2if1yN2nutE9vH9pMDhYl6iGPdblgaUX2LMX4HgdTNsezm5~dokNSvADqIzixNp2m7Gpj6y-RKjH-dv9Kx-~5e4foeLLImaKPpWEoyYVEGk~s-Rh~4cnrcGZg__"
             alt="Logo"
             className="w-[136px] h-[148px] "
           />

@@ -64,10 +64,10 @@ const EventPost = ({ event }) => {
 const Atast = () => {
     const events = [
         {
-          headImg: 'https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=oIhEjtBycM~Czxkmzsx3PkKZYVWRaoaAPV0s3bACydkLz5Lk1NgD1yBmvwnJZmRmNRuhkWvDLNb8HB~9y5PFkcEcKLwSFl2HcK0r4QXTLqE4EWJ1q2eN3Vf2FuKRNPjJ5lDMoRV2cREN7DO3CjIvEQNPlD-x4AVrJDEGPz~XB06IrJG9lb4l4DkMsbalvUSB7xQc-9-o8PRJso4YvRuCtM3mlBO~nRwA46YVjRZXDFDykKuRvIy4JoDpxek609QFd4f4Wl2u0C1c9N3zV7G3-yuRPo7XOrjgG59yBgCJGp6jrrP-n6n~34NzBuFgnRyWo2J~dL-uwDWa0KTUGh02Tg__',
+          headImg: 'https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MotZxpyIshfW4jezsqz0HlMd8g99Kz61fIcGqv3~uy13nydjWu-7IuwIg9aTIvlbRAgwHg-Yk9OnOWlzY~t4ILjurnYBP7B3vJRfAej4Q~5zt29ogVDZsunEeWdstpTgWVpJhvF3s8p9Ki9PFi6BIKLSVTCys~y68J9eGB9AB05lRoY-FUEs69nxWm0rppmfTYG4HK9I2zJ8x0uxzYf4XHmunsFZFzH49hxreB-JWfWnitYqZEtHA~ScSQEtgumTfwRV9IkUOQuiUUe~JqSbTi5I0Sq0LPcPe7CDj042rseASm7xaJyh4F8HB8KQ2g2E4DhJAUIALQcxilW6xpnrkg__',
           club: 'ATAST Student Section',
           handle: '@Comunity_Manager',
-          image: 'https://s3-alpha-sig.figma.com/img/b19a/26f2/b375b873ef3b03830a2323f5266327ee?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LwZMigYxVWP5HSrK3SVL1wp5zdaO7QrN5RY0a5yOUqG2fp~FhCCK11IZnKPaQTfSKb~QyXjfKR6qKbv3o4dfyGw4czzSV3wbCJ8FDQi34mCNiDPgGsd0Zz50HfEu1-2mPYMHX1Uj5kB40Hnaz2v3d92sqILAGFtU-5kCdJbUgr8V9Uge20GnuVnHFSabV0TU~txVEFcZofyC97KyVZgMSnbUQhCFGaNOA~p7t3d72Nm9b3-zU-pFdXc90PWf8zYdrVSPU0sXZHB24dcGVUaIXobgJp7be6X0YFCeme3e27sX24fhpu7VR5VgI0VE6nA8laqkDI41ZGQ44bkMp6Jfpw__',
+          image: 'https://s3-alpha-sig.figma.com/img/b19a/26f2/b375b873ef3b03830a2323f5266327ee?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qD6tSrEn1boxCUNoF1xVPwgyUtGP7vDfdhmpXxg7YDEaytOQ6BfKwljH9TBAa34Es71VmljsAEvTrhmt5EOftiiNywQ9bjeujLAa8gJQ1e9~KBRwe-kFxFuNMj972kgJxqnMkeNpkoP3ayjwaQ2FvBYQ2nHz4~utyOxCxo9FNmaZ3ja1MWHO5MbElrzSokdT2U0NrqJvj9n6HlD1W0Md1~CrA1PQRm6sA4bIQyhLgY25~vv6D1mkfrlxqBmLPrb6I844aGJt3KiJCyo07RNlm~BkFXiWsNwX7s9XrHPKXI8QFCySY974e4F5MIxsLUVNH5uLCQwmdov6F426Uu1HEA__',
           date: '20.03.23',
           title: 'Student Section Summit by ATAST',
           comments: 44,
@@ -79,38 +79,38 @@ const Atast = () => {
             id: 2,
             club: "ATAST_FMS",
             handle: "@Comunity_Manager",
-            headImg: "https://s3-alpha-sig.figma.com/img/bc8e/c02b/7cf67a7c672823c4d37c8bbf7ec80d0c?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fEOdhXCTtQQRkVaRyTNr8HUrIhVLqEttuM9-FBRLT-3JxsIlKXEKSC0pUnMN3LNsUhmSTUNU5L9F~uHwsjrLDenci4~VMXFP88AWuVaHm2TgIUUlXCKm6FDIhCgdvC3AK~594eScL5T56WSFrKqZMSxgK5p2p4h0N4nyEdboUzLu4YOekkcQW30X8Bd~zRxJCHZegwMbkXtP9hjl3zBqkF-uzkmWmkaBMp6kG6vTQ6I26RdbrhMNDYre7kf4sPbpdbsVad2m43TwydZDXGjv~gTvPlFdF9T8c9LH0U6OIf9by~uUJgGH6TkrMzb~zhhnnqDPA8eacna1DCVphr52yw__",
+            headImg: "https://s3-alpha-sig.figma.com/img/5db9/55f2/74677ec53a18179039b780b12df46c61?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lthx7gIPVY0OcALf~SHd5Nrr9c8E09rInpj6SNtXgpKATQEKs~mzi4Oel-Rmu-F-oS3b2zYN9FFVFccZlmoYLjG39QVTOiOtbk4s07rvph901vHCsmU7qdMNgavKJoVfmsK6lKp9f7zzwzTv8BtyCZC7LfEUiYMC-5fCLk3KHY4ALwSBlYb4xShqxg-ps3n1Aa0eugmuj8BeICLgh8uWPvyL1FHJbIZVcPYcxp5MCv1EC18eKUe8E-XWhr1CVhrr3yDfrlHfaXoS6dpjUpB6dAtKrmMsDJpVOcgfEXw0THV0rJ7hEV-8~Y1IEQTTcBfO7ZsZxFP8eqinNrB9FxcK0A__",
             likes: 0,
             isSaved: true,
             isLiked:false,
             comments: 0,
-            image: "https://s3-alpha-sig.figma.com/img/b19a/26f2/b375b873ef3b03830a2323f5266327ee?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LwZMigYxVWP5HSrK3SVL1wp5zdaO7QrN5RY0a5yOUqG2fp~FhCCK11IZnKPaQTfSKb~QyXjfKR6qKbv3o4dfyGw4czzSV3wbCJ8FDQi34mCNiDPgGsd0Zz50HfEu1-2mPYMHX1Uj5kB40Hnaz2v3d92sqILAGFtU-5kCdJbUgr8V9Uge20GnuVnHFSabV0TU~txVEFcZofyC97KyVZgMSnbUQhCFGaNOA~p7t3d72Nm9b3-zU-pFdXc90PWf8zYdrVSPU0sXZHB24dcGVUaIXobgJp7be6X0YFCeme3e27sX24fhpu7VR5VgI0VE6nA8laqkDI41ZGQ44bkMp6Jfpw__"
+            image: "https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a5yd1SVu4NBrnjxUV5wPfik47b8Lnn5KdM9ALf5mZc6MBOyJAlsU0S9UmEBDVhtFh~~SWir8SyJ4H02S1BixgRyNpuCT4JdJvn21s~rjVomEsiHXOifY2Et5NAv~ow5bpZYCVFkxl7t7XZQNGZWwh6p6P-xlevg~wIcLHrvMxnqCgMEbW4N-nZZb-Ge1uVTNvJsnVQj-G0xU1~NkzPAawU0gzKzKZ9T4ZM27-rDo6V7LUP8Vf2-zB7lKLwBFnwwnYnAKKRtJIr98aOHD93x7m3fYFE47vfco2nJdoWnNxCgAmWu~~bZuG7qn~nF4R6f8tjyWUoh3Dg39huUgwe6TLQ__"
           },
           {
             id: 3,
             club: "ATAST_EPI",
             handle: "@Comunity_Manager",
             isSaved: false, 
-            headImg: "https://s3-alpha-sig.figma.com/img/f1f4/958e/07865f43808cf32f57e55b8d881634e2?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=maOqlMivKVFD8cs-Kpy5uF6Exemv1BuUYWy48UVRxacUZmtVZ2EtwkSr9D1CxIRHHcNE9PZ~jnpLcs3PLudWO49YX7Hjh2d6mchgBoSwekYJ0jK4TTA8J0n5IW3V3o3ZgTawxxdmGX22Yrowd-v7JPu9RnZjGI3SUncl09DlFY5H2hlJrO3uDA-aXRYnYlhEZZenwdIbOK05jFp-At9L2GzLyKXE2vM1XPZbi3q~cTJ-ODyKg1Q7T4ZdX-9U8MgHkMOJGoFezdcS1VKIO6krtbNtY8xbFIlhfhz8wy4oQoKNKqKcSpwSW6jJh8~KVip1o4qchxi5JXUl7Mi0NDGoHA__",
+            headImg: "https://s3-alpha-sig.figma.com/img/5fe1/05b9/765579524abe9a02dfafbcd45e3614b1?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ahqLNjuYZSwLX1fACwn1OdAJYb8qewcYaPzb~XvJ~adLYOOexfJqfSCaOs-1G9cM3RrESqo0NpfAPzcegvX7tYwliTpWW7xufyIjagj6YdGpCimAjJ-1nGca2VxEboHyDoEYGue4yTNDba-sQxN90Nl1ZaY4srU8xpmjZMA2yFARCC18wUliV900zPaWARUqJV3LdipmLUYivA4590zloK42860ZmHwmTc0v9zep3y5HtY~JlEeDgZh2f65U3RZpBnbeibcmtcYtmxAHWC81RQO2sM8uFzXtEHt6gVNrc6p3yhPc3xlstV1WGf~G4LhrAL9A-QZe6cCy3EIlQPaIoQ__",
             likes: 0,
             comments: 0,
             isLiked:true,
-            image: "https://s3-alpha-sig.figma.com/img/6fab/4f21/8c7dabb60fa363f0a2bf7ed19737fafc?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AzmNrxiyGgat-JeqO5X6q91yMRoCa1NIqLH~rqqRZOXoGQoClkhqGR7uqKuxbC0YyAhejyK45N4RFLf1Jyu1s9sAO772eBBzY9l13s6K1lQI6krnxNheu-lkXFYaY9aJX4QGf5JbwAw6JMfx~tbn1bf3OQ8YHed9y~Yi3muC~6iU15Ci9aajhleDLIPvRiQSfoln85GdEMEHamM8zh~16yn6Ft-7k7HzU5jNMM9Dx08YgmPsZ2ohj3w~2NX5Utuc11sSG2rKyhaOtEvb2v5N3z4RKAYF2Ogl3GuMHCaRkVZaN~JpXaDWlUKoxDgezgpLKez~T8VjTEcr9I3xMzcIqw__"
+            image: "https://s3-alpha-sig.figma.com/img/6fab/4f21/8c7dabb60fa363f0a2bf7ed19737fafc?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rD9yneTFFusIHglKCdU4GcHwQhzAOag~UsH-JAjDx1UsAUjG0Am-TRUbmUEGurV3t4lPP3x717dPIJNscMQtzcXIkpR5eSDwV6vBT9p~cWMdtNMjYJcgUwp3cuUcmoCyYvjXxccG2Nw18Sjle3dFyA7UIhKbspnCOrX0YTYLpuVapB4t0y63BFdCczBUyuYLJ2~pbRwvR929x93Y0hworLDRpnGrOVbmv-SlbXcO~3XdRwXOTQWdJZspSGFaYfna1RoJigQuBtG7mRn5UUJO3x5Qw6f7mEEFtpA4tFZZQHU7y5oKR~sm1EobXW18-CAxpH2Ut0gTwwsKZhNunrdoPQ__"
           },
           {
             id: 4,
             club: "ATAST_FMS",
             handle: "@Comunity_Manager",
-            headImg: "https://s3-alpha-sig.figma.com/img/b19a/26f2/b375b873ef3b03830a2323f5266327ee?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LwZMigYxVWP5HSrK3SVL1wp5zdaO7QrN5RY0a5yOUqG2fp~FhCCK11IZnKPaQTfSKb~QyXjfKR6qKbv3o4dfyGw4czzSV3wbCJ8FDQi34mCNiDPgGsd0Zz50HfEu1-2mPYMHX1Uj5kB40Hnaz2v3d92sqILAGFtU-5kCdJbUgr8V9Uge20GnuVnHFSabV0TU~txVEFcZofyC97KyVZgMSnbUQhCFGaNOA~p7t3d72Nm9b3-zU-pFdXc90PWf8zYdrVSPU0sXZHB24dcGVUaIXobgJp7be6X0YFCeme3e27sX24fhpu7VR5VgI0VE6nA8laqkDI41ZGQ44bkMp6Jfpw__",
+            headImg: "https://s3-alpha-sig.figma.com/img/5db9/55f2/74677ec53a18179039b780b12df46c61?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lthx7gIPVY0OcALf~SHd5Nrr9c8E09rInpj6SNtXgpKATQEKs~mzi4Oel-Rmu-F-oS3b2zYN9FFVFccZlmoYLjG39QVTOiOtbk4s07rvph901vHCsmU7qdMNgavKJoVfmsK6lKp9f7zzwzTv8BtyCZC7LfEUiYMC-5fCLk3KHY4ALwSBlYb4xShqxg-ps3n1Aa0eugmuj8BeICLgh8uWPvyL1FHJbIZVcPYcxp5MCv1EC18eKUe8E-XWhr1CVhrr3yDfrlHfaXoS6dpjUpB6dAtKrmMsDJpVOcgfEXw0THV0rJ7hEV-8~Y1IEQTTcBfO7ZsZxFP8eqinNrB9FxcK0A__",
             likes: 0,
             isSaved: true,
             isLiked:true,
             comments: 0,
-            image: "https://s3-alpha-sig.figma.com/img/b19a/26f2/b375b873ef3b03830a2323f5266327ee?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LwZMigYxVWP5HSrK3SVL1wp5zdaO7QrN5RY0a5yOUqG2fp~FhCCK11IZnKPaQTfSKb~QyXjfKR6qKbv3o4dfyGw4czzSV3wbCJ8FDQi34mCNiDPgGsd0Zz50HfEu1-2mPYMHX1Uj5kB40Hnaz2v3d92sqILAGFtU-5kCdJbUgr8V9Uge20GnuVnHFSabV0TU~txVEFcZofyC97KyVZgMSnbUQhCFGaNOA~p7t3d72Nm9b3-zU-pFdXc90PWf8zYdrVSPU0sXZHB24dcGVUaIXobgJp7be6X0YFCeme3e27sX24fhpu7VR5VgI0VE6nA8laqkDI41ZGQ44bkMp6Jfpw__"
+            image: "https://s3-alpha-sig.figma.com/img/e8a5/8b46/c0e9f34f3f349034f034db73810012b3?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=O2ATjJSdahdh-x2itcK8IInixFql2MynRDct9gDXP6dTRRsC2ddMdUDlu0bXFSTcSo36rTgTnFd~YaVB9By8nyb5zb~XrL2AqrnFRFdTYi8bBN79gkvF2IQSkqRC-WjGhROMTE3XGcuDI3eg9B3DIPqpsZIzP~gOZpe7gvj8Wb5ajo~~DoSUeCt~3wgc-rWTMub1TsVOLZCF~6j0etj-ziRvWwB2d8yALjMO2-xjD3sEoWvh-Fki-kjC637c7rAVpdUKQ1WWRfZJz7Z04EM0dtlvMjnxZVEs8w3Xn6b6zEmx2FjkwLFEiS6Bc4sr9oYkQmF-SNF8qxocT2IB1ih6hw__"
           }
       ];
-  const additionalImage = "https://s3-alpha-sig.figma.com/img/509f/d949/6e5a135ffee5d6a37535c55bacb45bd9?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=s-PJecnhVNOsWBBqQuJ7v-BCLC7-q~zGWJMLuBTZ1n3sKB8rYvhivuI9Ktgr~D6Prd6XfY2A5sFt-Fb7DHcIOsILBD2Xz7YwQTQH90v1zj3lwvc2nUKs5DN52BzCgaQpzGmqGJrpE5BSCnsD3QiWA2w0ZeRfoUDFdZj~1~g6KSjGmnyt83fAIzZAcVbdedWwoiG7KQBKHbYBXRA1yfpcLWX8cfnO7AUIufxA4KLdkGyKz-YWE8pphgCuJL2gh-7hSXVZk8uxwRHvxlf78nV1gR3VJhVaQrTR~O16ixtiabemdEMvQn1GbDNH76yTVWAi3FSVCrgWF6ELE8abrbDiew__";
-    const additionaHeadlImage ="https://s3-alpha-sig.figma.com/img/f1f4/958e/07865f43808cf32f57e55b8d881634e2?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=maOqlMivKVFD8cs-Kpy5uF6Exemv1BuUYWy48UVRxacUZmtVZ2EtwkSr9D1CxIRHHcNE9PZ~jnpLcs3PLudWO49YX7Hjh2d6mchgBoSwekYJ0jK4TTA8J0n5IW3V3o3ZgTawxxdmGX22Yrowd-v7JPu9RnZjGI3SUncl09DlFY5H2hlJrO3uDA-aXRYnYlhEZZenwdIbOK05jFp-At9L2GzLyKXE2vM1XPZbi3q~cTJ-ODyKg1Q7T4ZdX-9U8MgHkMOJGoFezdcS1VKIO6krtbNtY8xbFIlhfhz8wy4oQoKNKqKcSpwSW6jJh8~KVip1o4qchxi5JXUl7Mi0NDGoHA__";
+  const additionalImage = "https://s3-alpha-sig.figma.com/img/509f/d949/6e5a135ffee5d6a37535c55bacb45bd9?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=M7Jn-mU8H~fAFgnTE5jvlPBKKuq-sNBT9rhPLWQnbIQtV6P~FgjuFOWAmhhwgFbrqeCMJUzHW1ONhJZG5WGZhvaX-HcZXoTF2Vl6VMzQt61RiWbHuVuxnOQcFn3vxTTywYIRv66FgaUGajPkD3GBddDLi6NPIC5DPFAAdeHwOYKtzTkTSH4e9GwHJYU~qnMOEIBD1l77pA65MO1ouGzEmnhnmyk7l-Zv5z4KfOI6XaIJj7169gf20gDu6rfOj215cBjl~4xgnFignX8QCA-28drZftIf38LNrmT54NtQ6ypspboD3uCBaxcRXLzqc0-ID9-gnkr18bMNHC1LaHWdmw__";
+    const additionaHeadlImage ="https://s3-alpha-sig.figma.com/img/a905/4850/93db31770e856822d73edafbec9658bd?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MotZxpyIshfW4jezsqz0HlMd8g99Kz61fIcGqv3~uy13nydjWu-7IuwIg9aTIvlbRAgwHg-Yk9OnOWlzY~t4ILjurnYBP7B3vJRfAej4Q~5zt29ogVDZsunEeWdstpTgWVpJhvF3s8p9Ki9PFi6BIKLSVTCys~y68J9eGB9AB05lRoY-FUEs69nxWm0rppmfTYG4HK9I2zJ8x0uxzYf4XHmunsFZFzH49hxreB-JWfWnitYqZEtHA~ScSQEtgumTfwRV9IkUOQuiUUe~JqSbTi5I0Sq0LPcPe7CDj042rseASm7xaJyh4F8HB8KQ2g2E4DhJAUIALQcxilW6xpnrkg__";
     const navigate = useNavigate();
   return (
     <>
@@ -137,7 +137,7 @@ const Atast = () => {
   </div>
 </div>
 
-<div className="mt-2  px-4 ml-[30%]">
+<div className="mt-2  px-4 ml-[8%]">
   <h2 className="text-white text-xl font-bold ">Atast Student Section</h2>
   <p className="text-gray-300 text-sm">24 Clubs</p>
 </div>

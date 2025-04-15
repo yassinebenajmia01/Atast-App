@@ -17,6 +17,7 @@ import Isitcom from "./components/Atast/Isitcom";
 import Digitium from "./components/Atast/Digitium";
 import Chat from "./components/Atast/Chat";
 import Members from "./components/Atast/Members";
+import Navbar from "./components/Atast/Navbar";
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/login" element={<Login />} /> 
         <Route path="/signup" element={<Signup />} /> 
         <Route path="/signupsuccess" element={<SignupSuccess />} /> 
+        <Route path="/navbar" element={<Navbar />} /> 
         <Route path="/profile" element={<Profile />} />
         <Route path="/settings" element={<SettingsComponent />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
