@@ -1,6 +1,7 @@
 import React from "react";
 import { Home, Search, Bookmark} from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import Isitomm from "../assests/isitcom.png";
 
 
 const Footer = () => {
@@ -33,7 +34,7 @@ const Footer = () => {
       <button className="text-white flex flex-col items-center">
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
           <img
-            src="https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__"
+            src={Isitomm}
             alt="Profile"
             className="w-8 h-8 rounded-full"
             onClick={() => navigate("/isitcom")}

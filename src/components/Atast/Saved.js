@@ -3,6 +3,8 @@ import { FaHeart, FaComment, FaShare, FaBookmark } from "react-icons/fa";
 import Footer from "../Footer";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { ArrowLeft } from "lucide-react";
+import Isitcomm from "../../assests/isitcom.png";
+import Fms from "../../assests/fms.png";
 
 const events = [
   {
@@ -13,14 +15,14 @@ const events = [
     isSaved: true,
     likes: 0,
     comments: 0,
-    headImg: "https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__",
+    headImg: Isitcomm,
     image: "https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a5yd1SVu4NBrnjxUV5wPfik47b8Lnn5KdM9ALf5mZc6MBOyJAlsU0S9UmEBDVhtFh~~SWir8SyJ4H02S1BixgRyNpuCT4JdJvn21s~rjVomEsiHXOifY2Et5NAv~ow5bpZYCVFkxl7t7XZQNGZWwh6p6P-xlevg~wIcLHrvMxnqCgMEbW4N-nZZb-Ge1uVTNvJsnVQj-G0xU1~NkzPAawU0gzKzKZ9T4ZM27-rDo6V7LUP8Vf2-zB7lKLwBFnwwnYnAKKRtJIr98aOHD93x7m3fYFE47vfco2nJdoWnNxCgAmWu~~bZuG7qn~nF4R6f8tjyWUoh3Dg39huUgwe6TLQ__"
   },
   {
     id: 2,
     club: "ATAST_FMS",
     handle: "@Comunity_Manager",
-    headImg: "https://s3-alpha-sig.figma.com/img/5db9/55f2/74677ec53a18179039b780b12df46c61?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fG5YjQjxaoEzW~tZ6I8nJrmkRF4oIpGCPFY7zfsVu6TjZWlUr0iTEnPMNF-HVm4r4LEIBM9v-C5q6zPWCCTbf~x~N6Qb7WB-PgfvJUKlzemzzFFw2cY7i3kTI-~hH3zoRjrMWgXgbkVtDdl6MlWp0A1-Y6eZTgXOqhlgbUyuc9xaduTj0bOq5i3IPrBdFJUMLyEhTnecu6Wse9l4Qy5uT1me9vaQxoVVRrR1FcnqgIok00znS1TG5979JV5u3hSIhj2VtrES26hrcJ5pFxR1oz3LeqJ2A8oEZKf3cJK8njL818o1vkQfYIBIh-VcCqKY5cxvrnGpWtKVYn8TeiZ69Q__",
+    headImg: Fms,
     likes: 0,
     isSaved: true,
     isLiked:false,

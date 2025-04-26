@@ -3,6 +3,7 @@ import { FaComment, FaHeart, FaShare, FaBookmark } from 'react-icons/fa';
 import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import Footer2 from './Footer2';
+import Isitcomm from "../../assests/isitcom.png";
 
 
 
@@ -72,14 +73,14 @@ const Isitcom = () => {
             isSaved: true, 
             likes: 0,
             comments: 0,
-            headImg: "https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__",
+            headImg: Isitcomm,
             image: "https://s3-alpha-sig.figma.com/img/7a8f/06b9/4893b8e26190e386534df1995857a42a?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=a5yd1SVu4NBrnjxUV5wPfik47b8Lnn5KdM9ALf5mZc6MBOyJAlsU0S9UmEBDVhtFh~~SWir8SyJ4H02S1BixgRyNpuCT4JdJvn21s~rjVomEsiHXOifY2Et5NAv~ow5bpZYCVFkxl7t7XZQNGZWwh6p6P-xlevg~wIcLHrvMxnqCgMEbW4N-nZZb-Ge1uVTNvJsnVQj-G0xU1~NkzPAawU0gzKzKZ9T4ZM27-rDo6V7LUP8Vf2-zB7lKLwBFnwwnYnAKKRtJIr98aOHD93x7m3fYFE47vfco2nJdoWnNxCgAmWu~~bZuG7qn~nF4R6f8tjyWUoh3Dg39huUgwe6TLQ__"
           },
           {
             id: 2,
             club: "ATAST_ISITCOM",
             handle: "@Comunity_Manager",
-            headImg: "https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__",
+            headImg: Isitcomm,
             likes: 0,
             isSaved: true,
             isLiked:false,
@@ -89,7 +90,7 @@ const Isitcom = () => {
         
       ];
   const additionalImage = "https://s3-alpha-sig.figma.com/img/d33c/bafb/4494aca8676c39c7bdf8ac8005a9148c?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JWiS80HxpItqfFugqztgd5f6sbScf1Fq29Z6ksO9I5FYSzb~~5FEUAtCA1EWky~A1PjFhcc0IoaIQ4LNiSRfipwA~ddmeEL6CTWtr7lCwXZGDXHwRk4BW52J-AahALYm-HOvj~bcg4E3KfKFKWoTZmTxWDRCdTe~p2D7YYD4Gpxr5T66e7nbsnuEKkQNU3vpUM8cZnoo~RlnDVD-rOmNm3hYfameMlNoCaDJRDh2wT8pJRXS-5d~sCdrKgp3RVFiKzgK1K4U3vVClm8lwj9ylj0rnwI0QFG7TsoTbE2~bJkPqYL1-p2nrDGeKMOTopmm7A1RUd5VvIuKNlSa-5DXsQ__";
-    const additionaHeadlImage ="https://s3-alpha-sig.figma.com/img/11d8/cb1b/206cc6a5919229cb6210826a4ea6e574?Expires=1745193600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QMKKb4LIcB31NT1852ny5dyOJG2MqdPmo8LpcjFP6PAYnFRzl8xSmiyiJgyk61Fj45gdmcW4DQWg7JVuQxZx7vt7ymmsqzgAXXPqOdNnK6PB-FsOMpzfypqW4nuxGIQe6omPtD8uymP7A4GwrbSoVEgk0KtkLLZQGpRDaKyP1NqsWkwQ0WZ4p4j42wN0Aff4OG7AlwOJAiq95REQYr0uHcPIp67sJxfcyoF12szaHF~rFlKAuA4dMEdi6M7QBfhTFv9sRnOCpwzE0VoWblGr7whXMxNjpSJ~jWNQ1-s-AiQw~7ImI62a96pME0~vz~c--gOI1kuidFKLlGnJBi4MyA__";
+    const additionaHeadlImage =Isitcomm;
     const navigate = useNavigate();
     
   return (

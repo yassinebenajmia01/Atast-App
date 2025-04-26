@@ -2,6 +2,7 @@ import { CheckCircle } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Confetti from "react-confetti";
 import { useState, useEffect } from "react";
+import TitleImage from "../assests/AtastLogo.png";
 
 export default function SignupSuccess() {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ export default function SignupSuccess() {
       {/* Logo */}
       <div className="mb-6 ">
         <img
-          src="https://s3-alpha-sig.figma.com/img/b1d1/e571/66c9a73d629027eb6697c03cec62c28c?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=glwhmfxh8~53oiraWtYTQKF7XUsvGqyTMd-HTuwqRBXZ9BmpHFAm1izmbrrH65SaoEU0BuIeSKaIkeEgKySwUuCRc5kkc1hTyiCWfyXlQc63xu~Hl3gjFcJkb4jabO-b9YRnT1v4MNKtM~fRbENIXICtgRXtrZr4M8GotjKqyRKNMYV~ixCFltV1adosJrcMarAZyDGCmXOuoPlN5D88gf2XxQj3NtQctz~n91xsicI7s-DIJHVLICiDugDKcUxNStR-Sw3FGtr9GhvMrqaa2MCCSjyXHmQ-sysJz4is8q2NWJAfgiyXIaEjm5~rcaUnSYoxhONKQHz6Ok0u655pDg__"
+          src={TitleImage}
           alt="Logo"
           className="w-[136px] h-[148px] mb-[50%] "
         />
@@ -34,7 +35,7 @@ export default function SignupSuccess() {
         </div>
         <h2 className="text-xl font-bold mt-6">Successfully</h2>
         <p className="text-gray-500 text-sm">Your account registration was successful.</p>
-        <button className="bg-gray-200 text-black mt-4 py-2 px-6 rounded-lg">Oke</button>
+        <button className="bg-gray-200 text-black mt-4 py-2 px-6 rounded-lg">Ok</button>
       </div>
 
       {/* Confirmation Message */}
